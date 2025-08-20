@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnoApp", "TestUnoApp\TestUnoApp.csproj", "{84DC2FB8-1EA8-46C8-BBEE-117B6D53C7B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateService.API", "..\TemplateService.API\TemplateService.API.csproj", "{23AC16ED-B29E-4192-921B-5A5A66EA9281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateService.Domain", "..\TemplateService.Domain\TemplateService.Domain.csproj", "{ACA699AB-36D7-4FB5-872E-4E61FA4D6CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateService.Infrastructure", "..\TemplateService.Infrastructure\TemplateService.Infrastructure.csproj", "{F804DCF4-9514-45C6-83A3-26AC71BE7636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateService.Application", "TemplateeService.Application\TemplateService.Application.csproj", "{A5B02E91-5A40-4081-82A8-3DFB32146D8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84DC2FB8-1EA8-46C8-BBEE-117B6D53C7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84DC2FB8-1EA8-46C8-BBEE-117B6D53C7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84DC2FB8-1EA8-46C8-BBEE-117B6D53C7B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{84DC2FB8-1EA8-46C8-BBEE-117B6D53C7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84DC2FB8-1EA8-46C8-BBEE-117B6D53C7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84DC2FB8-1EA8-46C8-BBEE-117B6D53C7B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{23AC16ED-B29E-4192-921B-5A5A66EA9281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AC16ED-B29E-4192-921B-5A5A66EA9281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AC16ED-B29E-4192-921B-5A5A66EA9281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AC16ED-B29E-4192-921B-5A5A66EA9281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA699AB-36D7-4FB5-872E-4E61FA4D6CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA699AB-36D7-4FB5-872E-4E61FA4D6CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA699AB-36D7-4FB5-872E-4E61FA4D6CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA699AB-36D7-4FB5-872E-4E61FA4D6CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F804DCF4-9514-45C6-83A3-26AC71BE7636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F804DCF4-9514-45C6-83A3-26AC71BE7636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F804DCF4-9514-45C6-83A3-26AC71BE7636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F804DCF4-9514-45C6-83A3-26AC71BE7636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B02E91-5A40-4081-82A8-3DFB32146D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B02E91-5A40-4081-82A8-3DFB32146D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B02E91-5A40-4081-82A8-3DFB32146D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B02E91-5A40-4081-82A8-3DFB32146D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DA580A2-9105-4024-848E-ACB5EECA8C1F}
+	EndGlobalSection
+EndGlobal

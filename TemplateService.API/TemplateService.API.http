@@ -1,0 +1,6 @@
+@TemplateService.API_HostAddress = http://localhost:5067
+
+GET {{TemplateService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

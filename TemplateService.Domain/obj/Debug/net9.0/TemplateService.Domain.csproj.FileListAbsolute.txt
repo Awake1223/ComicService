@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\bin\Debug\net9.0\TemplateService.Domain.deps.json
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\bin\Debug\net9.0\TemplateService.Domain.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\bin\Debug\net9.0\TemplateService.Domain.pdb
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\TemplateService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\TemplateService.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\TemplateService.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\TemplateService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\TemplateService.Domain.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\refint\TemplateService.Domain.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\TemplateService.Domain.pdb
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\ref\TemplateService.Domain.dll

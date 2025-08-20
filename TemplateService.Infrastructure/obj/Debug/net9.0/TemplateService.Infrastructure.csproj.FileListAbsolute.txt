@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.AssemblyInfo.cs
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\bin\Debug\net9.0\TemplateService.Infrastructure.deps.json
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\bin\Debug\net9.0\TemplateService.Infrastructure.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\bin\Debug\net9.0\TemplateService.Infrastructure.pdb
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\bin\Debug\net9.0\TemplateService.Domain.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\bin\Debug\net9.0\TemplateService.Domain.pdb
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\Template.1A74688F.Up2Date
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\refint\TemplateService.Infrastructure.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.pdb
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\ref\TemplateService.Infrastructure.dll
