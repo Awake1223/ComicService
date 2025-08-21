@@ -13,3 +13,6 @@ C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\
 C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\refint\TemplateService.Infrastructure.dll
 C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.pdb
 C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\ref\TemplateService.Infrastructure.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.sourcelink.json
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\bin\Debug\net9.0\TemplateService.Infrastructure.runtimeconfig.json
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Infrastructure\obj\Debug\net9.0\TemplateService.Infrastructure.genruntimeconfig.cache

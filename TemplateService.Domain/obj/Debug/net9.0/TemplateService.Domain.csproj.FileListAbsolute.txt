@@ -9,3 +9,4 @@ C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\ne
 C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\refint\TemplateService.Domain.dll
 C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\TemplateService.Domain.pdb
 C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\ref\TemplateService.Domain.dll
+C:\Users\User\source\repos\ProjectTestUnoApp\TemplateService.Domain\obj\Debug\net9.0\TemplateService.Domain.sourcelink.json
