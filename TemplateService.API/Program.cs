@@ -35,6 +35,18 @@ builder.Services.AddScoped<IComicService, ComicService>();
 builder.Services.AddScoped<IUserReposotory, UserReposotory>();
 builder.Services.AddScoped<IComicReposotory, ComicReposotory>();
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5000", "https://localhost:5001") // адреса Uno приложения
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 builder.Services.AddDbContext<ComicServiceDbContext>(
     options =>
     {
@@ -55,17 +67,6 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: MyAllowSpecificOrigins,
-        policy =>
-        {
-            policy.WithOrigins("http://localhost:5000", "https://localhost:5001") // адреса Uno приложения
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
-        });
-});
 app.UseCors(MyAllowSpecificOrigins);
 
 

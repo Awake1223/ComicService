@@ -1,10 +1,8 @@
-﻿namespace TestUnoApp.Presentation;
-
 public sealed partial class MainPage : Page
 {
     public MainPage()
     {
-        this.DataContext<MainViewModel>((page, vm) => page
+        this.DataContext<MainModel>((page, vm) => page
             .NavigationCacheMode(NavigationCacheMode.Required)
             .Background(Theme.Brushes.Background.Default)
             .Content(new Grid()
@@ -18,13 +16,22 @@ public sealed partial class MainPage : Page
                         .VerticalAlignment(VerticalAlignment.Center)
                         .Spacing(16)
                         .Children(
+                            new Button()
+                                .Content("Test GET /user")
+                                .Command(() => vm.TestGetUsersCommand),
+                            new Button()
+                                .Content("Test POST /user")
+                                .Command(() => vm.TestCreateUserCommand),
                             new TextBox()
                                 .Text(x => x.Binding(() => vm.Name).Mode(BindingMode.TwoWay))
-                                .PlaceholderText("Enter your name:"),
-                            new Button()
-                                .Content("Go to Second Page")
-                                .AutomationProperties(automationId: "SecondPageButton")
-                                .Command(() => vm.GoToSecond)
-                                ))));
+                                .PlaceholderText("Username"),
+                            new TextBox()
+                                .Text(x => x.Binding(() => vm.Email).Mode(BindingMode.TwoWay))
+                                .PlaceholderText("Email"),
+                            new ListView()
+                                .ItemsSource(x => x.Binding(() => vm.Users))
+                                .Height(200)
+                                .Width(300)
+                        ))));
     }
 }

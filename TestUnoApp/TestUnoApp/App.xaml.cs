@@ -1,4 +1,5 @@
 using Uno.Resizetizer;
+using TestUnoApp.Services;
 
 namespace TestUnoApp;
 public partial class App : Application
@@ -81,6 +82,15 @@ public partial class App : Application
                 })
                 .ConfigureServices((context, services) =>
                 {
+                    services.AddSingleton<IApiService, ApiService>();
+                    
+                    services.AddHttpClient();
+                    services.AddSingleton<IApiService, ApiService>();
+
+                   
+                    services.AddTransient<MainModel>();
+                    services.AddTransient<ShellModel>();
+                    services.AddTransient<SecondModel>();
                     // TODO: Register your services
                     //services.AddSingleton<IMyService, MyService>();
                 })
@@ -91,7 +101,7 @@ public partial class App : Application
 #if DEBUG
         MainWindow.UseStudio();
 #endif
-        MainWindow.SetWindowIcon();
+       // MainWindow.SetWindowIcon();
 
         Host = await builder.NavigateAsync<Shell>();
     }
